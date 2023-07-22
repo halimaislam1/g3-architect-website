@@ -24,9 +24,13 @@ hoiyese jate shb jaygy use kora jai  */
     /* mouse deye clk korar jnno cusor
     use hoise */
     cursor: pointer;
-    border: 0px;
+    border: 0px;  
     
-    
+}
+.setion-title{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #131313;
 }
 
 /* header styles */
@@ -44,13 +48,13 @@ nav {
 
 }
 
-.nav-title {
+ /* .nav-title { */
     /* title a likhatar size 48 tay 3 rem 
     nite pari(3*16=48).rem (root)*/
-    font-size: 1.8rem;
+    /* font-size: 1.8rem;
     font-weight: 700;
     color: #131313;
-}
+}   */
 
 /* ul holo immediate child */
 nav>ul {
