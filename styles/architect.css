@@ -1,8 +1,68 @@
 /* Work sense font from google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
-* { 
+/* shared syles */
+* {
     font-family: 'Leto', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary{
+    
+}
+
+/* header styles */
+header {
+    background: rgba(255, 144, 14, 0.10);
+    /* top-bottom(50) left-rigt(240) */
+    padding: 50px 240px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* for horizontal align */
+    align-items: center;
+
+}
+.nav-title{
+    /* title a likhatar size 48 tay 3 rem 
+    nite pari(3*16=48).rem (root)*/
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+}
+
+/* ul holo immediate child */
+nav>ul {
+    display: flex;
+
+}
+
+nav li {
+    list-style: none;
+    /* margin r8 deye list gulute gap dewa hoiyese */
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+nav li a{
+    text-decoration: none;
+    color:#424242;
+}
+.banner-content{
+    /* upor thek banner-title er width bare*/
+    max-width: 800px;
+    text-align: center;
+    /* TB  LR */
+    margin: 0px auto;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color:#131313 ;
+}
+.banner-description{
+    color: #727272;
 }
