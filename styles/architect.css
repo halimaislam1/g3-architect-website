@@ -7,6 +7,7 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+
 /* gray common colour howai atate 
 banner-description er bodole use kora
 hoiyese jate shb jaygy use kora jai  */
@@ -24,11 +25,12 @@ hoiyese jate shb jaygy use kora jai  */
     /* mouse deye clk korar jnno cusor
     use hoise */
     cursor: pointer;
-    border: 0px;  
-    
+    border: 0px;
+
 }
+
 /* nav title k section title bananu hoise */
-.setion-title{
+.setion-title {
     font-size: 1.8rem;
     font-weight: 700;
     color: #131313;
@@ -86,76 +88,117 @@ nav li a {
 /* .banner-description {
     color: #727272;
 } */
-.banner img{
+.banner img {
     margin-top: 20px;
     width: 100%;
-    
+
 }
 
 /* main section styles */
-main{
+main {
     /* overall width */
-   max-width: 1440px; 
-   margin: 70px auto;
+    max-width: 1440px;
+    margin: 70px auto;
 }
-.teams-container{
+
+.teams-container {
     display: flex;
     align-items: center;
 }
-.teams-img-container{
+
+.teams-img-container {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
     /* gap: 24px; */
 }
-.teams-contant{
+
+.teams-contant {
     /* padding: 0px 70px; */
     padding-left: 70px;
     padding-right: 70px;
 }
-.teams-title{
+
+.teams-title {
     /* font-size: 45px; */
     font-size: 2.8rem;
 }
-.teams-title .quick-list{
-    
+
+.teams-title .quick-list {
+
     font-weight: 500;
 }
 
-.teams-title .text-features{
+.teams-title .text-features {
     color: #FF900E;
-    font-weight: 700px;
+    font-weight: 700;
+}
+
+/* featured section styles */
+.features {
+    display: flex;
+    margin-top: 130px;
+    gap: 100px;
+}
+
+.features .setion-title {
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.feature-content .card {
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.ten-years-badge {
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    width: 342px;
+    padding: 40px;
+}
+.ten-years-badge h2{
+    font-size: 4rem ;
 }
 
 /* some facts section */
-.facts-card-container{
+.facts-card-container {
     display: flex;
     justify-content: space-around;
 }
-.facts-card-container .card{
+
+.facts-card-container .card {
     border-radius: 8px;
     border: 1px solid #FF900E;
     /* card er betore text gula center krar jnno */
     text-align: center;
-    padding:  30px;
-    
+    padding: 30px;
+
 }
-.facts-card-container .card-title{
+
+.facts-card-container .card-title {
     font-weight: 600;
     font-size: 1.25rem;
     margin-top: 5px;
-    
+
 }
-.facts-card-container .card-states{
+
+.facts-card-container .card-states {
     font-size: 2.8rem;
     color: #424242;
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 /* sponsores releted styles */
-.sponsors{
+.sponsors {
     text-align: center;
 }
+
 .sponsors-img-container {
     margin-top: 50px;
     display: flex;
@@ -164,44 +207,51 @@ main{
     gap: 40px;
 
 }
-.sponsors-img-container img{
+
+.sponsors-img-container img {
     width: 165px;
 }
 
 /* responsive header section media query */
 /* mobile devices */
 @media screen and (max-width:576px) {
-    header{
-        padding:20px
+    header {
+        padding: 20px
     }
+
     nav,
     .teams-container,
     .facts-card-container,
-    .sponsors-img-container
-    {
+    .sponsors-img-container {
         flex-direction: column;
     }
-    .teams-img-container{
+
+    .teams-img-container {
         grid-template-columns: 1fr;
     }
-    .teams-contant,.facts-card-container{
-    padding-left: 20px;
-    padding-right: 20px;
+
+    .teams-contant,
+    .facts-card-container {
+        padding-left: 20px;
+        padding-right: 20px;
     }
-    .facts-card-container{
+
+    .facts-card-container {
         gap: 20px;
 
     }
 
 }
+
 /* tablet or medium devices */
 @media screen and (min-width:576px) and (max-width:960px) {
-    header{
-        padding:50px
+    header {
+        padding: 50px
     }
-    nav, .teams-container,
-    .sponsors-img-container
-    {
+
+    nav,
+    .teams-container,
+    .sponsors-img-container {
         flex-direction: column;
     }
 }
